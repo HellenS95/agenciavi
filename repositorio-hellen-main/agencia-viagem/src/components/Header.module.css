@@ -1,0 +1,86 @@
+
+.containernav {
+    width: 100%;
+    background-color: #0d6efd;
+    height: 120px;
+}
+  
+.containermenu {
+    justify-content: space-around;
+    display: flex;
+    gap:50px; 
+    align-items: baseline;
+    margin-right: 90px;
+
+  }
+
+.menu {
+    justify-content: end;
+   
+}
+
+.linkmenu a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.linkmenu a:hover { 
+    border-bottom: 3px solid white;
+}
+
+
+.login a {
+    color:#0d6efd;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none; 
+  
+}
+.login {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding:10px 35px 10px 35px;
+}
+
+.login a:hover {
+    color:white;
+}
+
+.login:hover {
+    background-color: #002a69;
+}
+
+.logoAgencia {
+    width: 100px;
+    margin-left: 80px;
+}
+
+
+@media (max-width: 991px) {
+    .containernav {
+        height: max-content; 
+        padding-bottom: 15px;
+    }
+
+    .containermenu {
+        width: 100%;  
+        align-items: center;
+    }
+
+
+}
+@media (max-width: 700px) {
+    .logoAgencia {
+        width: 70px;
+        margin-left: 20px;
+    }
+    .containermenu {
+        margin-right: 20px;
+    }
+
+
+}
